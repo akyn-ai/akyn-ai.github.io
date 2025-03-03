@@ -4,6 +4,7 @@ label: Обратная связь
 layout: default
 order: 4
 parent: Акын Автоматика
+permalink: /contactus/
 ---
 
 ## Обратная связь
