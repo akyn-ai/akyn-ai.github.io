@@ -3,5 +3,6 @@ description: Animus ante omnes. Cordis ante animus.
 show_downloads: false
 google_analytics: true
 theme: jekyll-theme-leap-day
+url: "https://akyn-ai.com" # Custom domain
 # logo: "your_logo_path"
 # favicon_ico: "your_icon_path"
