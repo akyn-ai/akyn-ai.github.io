@@ -1,7 +1,7 @@
 title: Акын Автоматика
 description: Animus ante omnes. Cordis ante animus.
 show_downloads: false
-google_analytics:
+google_analytics: true
 theme: jekyll-theme-leap-day
 # logo: "your_logo_path"
 # favicon_ico: "your_icon_path"
