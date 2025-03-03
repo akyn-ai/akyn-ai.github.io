@@ -5,9 +5,3 @@ google_analytics:
 theme: jekyll-theme-leap-day
 # logo: "your_logo_path"
 # favicon_ico: "your_icon_path"
-
-navigation:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
