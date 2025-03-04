@@ -2,15 +2,15 @@ title: "Акын Автоматика"
 url: https://akyn-ai.com # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
 
-repo: https://github.com/mattcone/markdown-guide
+repo: https://github.com/akyn-ai/akyn-ai.github.io
 comments: false
 
-remote_theme: mattcone/markdown-guide
+# remote_theme: mattcone/markdown-guide
 
 plugins:
   - jekyll-last-modified-at
   - jekyll-sitemap
-  - jekyll-remote-theme
+  # - jekyll-remote-theme
 
 collections:
   basic-syntax:
