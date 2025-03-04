@@ -1,5 +1,5 @@
 title: "Акын Автоматика"
-url: https://akyn-ai.github.io # site url # https://akyn-ai.com
+url: https://akyn-ai.com # site url # https://akyn-ai.github.io
 baseurl: "" # apply repo name if use it under gh-pages branch
 
 repo: https://github.com/akyn-ai/akyn-ai.github.io
