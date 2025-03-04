@@ -5,9 +5,12 @@ baseurl: "" # apply repo name if use it under gh-pages branch
 repo: https://github.com/mattcone/markdown-guide
 comments: false
 
+remote_theme: mattcone/markdown-guide
+
 plugins:
   - jekyll-last-modified-at
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 collections:
   basic-syntax:
