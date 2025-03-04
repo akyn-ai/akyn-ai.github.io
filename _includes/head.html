@@ -24,9 +24,11 @@
 
   {% if jekyll.environment == "production" %}
   {% if page.title == 'Home' or page.title == '404 Not Found' %}
-  <link href="/assets/css/homebundle.css" rel="stylesheet">
+  <!-- <link href="/assets/css/homebundle.css" rel="stylesheet"> -->
+  <link href="/assets/css/homepage.css" rel="stylesheet">
   {% else %}
-  <link href="/assets/css/pagebundle.css" rel="stylesheet">
+  <!-- <link href="/assets/css/pagebundle.css" rel="stylesheet"> -->
+  <link href="/assets/css/page.css" rel="stylesheet">
   {% endif %}
   {% else %}
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
