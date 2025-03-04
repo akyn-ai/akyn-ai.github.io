@@ -1,0 +1,78 @@
+---
+title: Home
+---
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <img src="/assets/images/akyn_avtomatika_big_white.png" height="128" width="256" alt="Markdown logo">
+        <p>Animus ante omnes. Cordis ante animus.</p>
+        <!-- <p><i>The Markdown Guide</i> is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.</p> -->
+        <!-- <p><a class="btn btn-outline-inverse btn-lg" href="/getting-started/" role="button">Get Started</a></p> -->
+      </div>
+    </div>
+    {% if jekyll.environment == "production" %}<center><div class="horizontal" data-ea-publisher="markdownguide" data-ea-type="image"></div></center>{% endif %}
+    <div class="container">
+      <div class="md-guide-feature">
+        <!-- <h2 class="no-anchor">Everything you need to learn Markdown.</h2> -->
+        <p class="lead" style="margin-bottom: 60px">Команда Акын Автоматика это группа разносторонних профессионалов, выпускников российских и зарубежных вузов, которым, волею судеб, случилось поработать вместе на нескольких консультационных проектах. Члены команды получили образование по разным специальностям: от ИТ и ИИ до юриспруденции и журналистики. Их объединяют знания, требовательность к себе, любовь к созерцанию прекрасного и желание создавать новое и полезное.</p>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="#">  <!-- /extended-syntax/ -->
+                  <div class="icon">
+                    <i class="fas fa-book-open"></i>
+                  </div>
+                </a>
+                <h4 class="no-anchor">Образование и журналистика</h4>
+                <p>Обработка и отекстовка больших объёмов аудио и видео.</p>
+            </div>
+            <div class="col-sm-6">
+                <a href="#">  <!-- /extended-syntax/ -->
+                <div class="icon">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                </a>
+                <h4 class="no-anchor">Бизнес и аналитика</h4>
+                <p>Извлечение, преобраование и структурирование данных, аналитическая и статистическая обработка с применением методов искуственного интеллекта.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="#"> <!-- /extended-syntax/ -->
+                <div class="icon">
+                    <i class="fas fa-film"></i>
+                </div>
+                </a>
+                <h4 class="no-anchor">Культура и медиа</h4>
+                <p>Подготовка видео-информации к публикации, наложение субтитров и перевод с иностранных языков.</p>
+            </div>
+            <div class="col-sm-6">
+                <a href="#">  <!-- /extended-syntax/ -->
+                <div class="icon">
+                    <i class="fas fa-network-wired"></i> <!-- fa-mobile -->
+                </div>
+                </a>
+                <h4 class="no-anchor">Информационные технологии</h4>
+                <p> Дизайн, разработка и сопровождение мобильных и кросс-платформенных приложений и облачных сервисов.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="md-guide-feature">
+        <h2 class="no-anchor">Оставайтесь на связи</h2>
+        <p class="lead">Свяжитесь с нами и мы вам ответим в ктарчайшие сроки.</p>
+        <br/>
+        <!-- <a class="btn btn-default btn-lg" href="https://pika.forklabs.com/subscription/form" style="margin-top: -10px">Обратная связь</a> -->
+        <a class="btn btn-default btn-lg" href="/contactus/" style="margin-top: -10px">Обратная связь</a>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Hacks | Акын Автоматика</title>
+
+  <meta name="description" content="Workarounds for things not officially supported by Markdown.">
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://localhost:4000/hacks/" />
+  <meta property="og:title" content="Hacks | Акын Автоматика" />
+  <meta property="og:description" content="Workarounds for things not officially supported by Markdown." />
+  <meta property="og:image" content="https://www.markdownguide.org/assets/images/markdown-guide-og.jpg" />
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap-toc.min.css">
+  <link rel="stylesheet" href="/assets/css/docsearch.min.css">
+
+  
+  <link href="/assets/css/page.css" rel="stylesheet">
+  
+  
+  
+  <link rel="canonical" href="http://localhost:4000/hacks/">
+
+  <script src="/assets/javascript/jquery-3.5.1.slim.min.js"></script>
+  
+  <script async src="/assets/javascript/bootstrap.bundle.min.js"></script>
+  <script async src="/assets/javascript/bootstrap-toc.min.js"></script>
+  <script defer src="/assets/javascript/solid.min.js"></script>
+  <script defer src="/assets/javascript/fontawesome.min.js"></script>
+  
+  <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
+</head>
+
+  <body data-spy="scroll" data-target="#toc">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mdg-nav">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="margin-top: 2px; margin-bottom: 3px">
+      <!-- <img src="/assets/images/akyn_avtomatika_a_white.png" height="23" width="23" class="d-inline-block align-top" alt="Markdown Guide" style="margin-top: 4px; padding-right: 10px"> -->
+      Акын Автоматика
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-top: 2px">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link " href="/products/">Продукты</a>
+        <!-- <a class="nav-item nav-link " href="/getting-started/">Get Started</a> -->
+        <!-- <a class="nav-item nav-link " href="/cheat-sheet/">Cheat Sheet</a> -->
+        <!-- <a class="nav-item nav-link " href="/basic-syntax/">Basic Syntax</a> -->
+        <a class="nav-item nav-link " href="/about/">О нас</a>
+        <a class="nav-item nav-link " href="/contactus/">Обратная связь</a>
+        <!-- <a class="nav-item nav-link " href="/extended-syntax/">Extended Syntax</a>
+        <a class="nav-item nav-link active" href="/hacks/">Hacks</a>
+        <a class="nav-item nav-link " href="/tools/">Tools</a>
+        <a class="nav-item nav-link " href="/book/">Book</a> -->
+      </div>
+    </div>
+    <form class="form-inline d-none d-lg-inline-block mt-2 mt-md-0">
+      <input type="text" class="form-control" id="search-input" placeholder="Search" style="margin-top:0">
+    </form>
+  </div>
+</nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="no-anchor" data-toc-skip>Hacks</h1>
+        <p>Workarounds for things not officially supported by Markdown.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-12 col-md-9">
+          <h2 id="overview">Overview</h2>
+
+<p>The majority of people using Markdown will find that the <a href="/basic-syntax/">basic</a> and <a href="/extended-syntax/">extended syntax</a> elements cover their needs. But chances are that if you use Markdown long enough, you’ll inevitably discover that it doesn’t support something you need. This page provides tips and tricks for working around Markdown’s limitations.</p>
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> These hacks aren't guaranteed to work in your Markdown application. If you need to use these hacks frequently, you should consider writing using something other than Markdown. 
+</div>
+
+<h2 id="underline">Underline</h2>
+
+<p>Underlined text is not something you typically see in web writing, probably because underlined text is nearly synonymous with links. However, if you’re writing a paper or a report, you may need the ability to underline words and phrases. A couple of applications like <a href="/tools/bear/">Bear</a> and <a href="/tools/simplenote/">Simplenote</a> provide support for underlining text, but Markdown doesn’t natively support underlining. If your Markdown processor supports <a href="/basic-syntax/#html">HTML</a>, you can use the <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code> HTML tag to underline text in your document.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Some of these words <span class="nt">&lt;ins&gt;</span>will be underlined<span class="nt">&lt;/ins&gt;</span>.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p>Some of these words <ins>will be underlined</ins>.</p>
+
+<h2 id="indent-tab">Indent (Tab)</h2>
+
+<p>Tabs and whitespace have a special meaning in Markdown. You can use trailing whitespace to create <a href="/basic-syntax/#line-breaks">line breaks</a>, and you can use tabs to create <a href="/basic-syntax/#code-blocks">code blocks</a>. But what if you need to indent a paragraph the old-fashioned way, using the tab key? Markdown doesn’t provide an easy way of doing that.</p>
+
+<p>Your best bet might be to use a Markdown editor that supports indentation. This is common in applications that are more oriented towards desktop publishing. For example, <a href="/tools/ia-writer/">iA Writer</a> allows you to customize indentation settings for the editor in the application preferences. It also provides template customization options so that you can make the rendered document look the way you expect it to, indentation and all.</p>
+
+<p>Another option, if your Markdown processor supports <a href="/basic-syntax/#html">HTML</a>, is to use the HTML entity for non-breaking space (<code class="language-plaintext highlighter-rouge">&amp;nbsp;</code>). This should probably be your option of last resort as it can get awkward. Basically, every <code class="language-plaintext highlighter-rouge">&amp;nbsp;</code> in your Markdown source will be replaced with a space in the rendered output. So if you stick four instances of <code class="language-plaintext highlighter-rouge">&amp;nbsp;</code> before a paragraph, the paragraph will look like it’s indented four spaces.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</span>This is the first sentence of my indented paragraph.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p>    This is the first sentence of my indented paragraph.</p>
+
+<h2 id="center">Center</h2>
+
+<p>Having the ability to center text is a necessity when writing a paper or a report. Unfortunately, Markdown doesn’t have any concept of text alignment (one possible exception is when using <a href="/extended-syntax/#alignment">tables</a>). The good news is that there’s an HTML tag you can use: <code class="language-plaintext highlighter-rouge">&lt;center&gt;</code>. If your Markdown processor supports <a href="/basic-syntax/#html">HTML</a>, you can place these tags around whatever text you want to center align.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;center&gt;</span>This text is centered.<span class="nt">&lt;/center&gt;</span>
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p style="text-align:center">This text is centered.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">&lt;center&gt;</code> HTML tag is technically supported but officially <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/center">deprecated</a>, which means it works for now but you’re not supposed to be using it. Unfortunately, there’s not another pure HTML alternative. You could try using one of the CSS alternatives. Not all Markdown applications provide CSS support, but if the one you’re using does, here’s an alternative to the <code class="language-plaintext highlighter-rouge">&lt;center&gt;</code> tag:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"text-align:center"</span><span class="nt">&gt;</span>Center this text<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<p>If this is supported by your Markdown application, the output looks like this:</p>
+
+<p style="text-align:center">Center this text</p>
+
+<h2 id="color">Color</h2>
+
+<p>Markdown doesn’t allow you to change the color of text, but if your Markdown processor supports <a href="/basic-syntax/#html">HTML</a>, you can use the <code class="language-plaintext highlighter-rouge">&lt;font&gt;</code> HTML tag. The <code class="language-plaintext highlighter-rouge">color</code> attribute allows you to specify the font color using a color’s name or the hexadecimal <code class="language-plaintext highlighter-rouge">#RRGGBB</code> code.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;font</span> <span class="na">color=</span><span class="s">"red"</span><span class="nt">&gt;</span>This text is red!<span class="nt">&lt;/font&gt;</span>
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p style="color:red">This text is red!</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">&lt;font&gt;</code> HTML tag is technically supported but officially <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font">deprecated</a>, which means it works for now but you’re not supposed to be using it. Unfortunately, there’s not another pure HTML alternative. You could try using one of the CSS alternatives. Not all Markdown applications provide CSS support, but if the one you’re using does, here’s an alternative to the <code class="language-plaintext highlighter-rouge">&lt;font&gt;</code> tag:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">style=</span><span class="s">"color:blue"</span><span class="nt">&gt;</span>Make this text blue.<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<p>If this is supported by your Markdown application, the output looks like this:</p>
+
+<p style="color:blue">Make this text blue.</p>
+
+<h2 id="comments">Comments</h2>
+
+<p>Some people need the ability to write sentences in their Markdown files that <em>will not</em> appear in the rendered output. These comments are essentially hidden text. The text is viewable by the author of the document, but it’s not printed on the webpage or PDF. Markdown doesn’t natively support comments, but several enterprising individuals have devised a solution.</p>
+
+<p>To add a comment, place text inside brackets followed by a colon, a space, and a pound sign (e.g., <code class="language-plaintext highlighter-rouge">[comment]: #</code>). You should put blank lines before and after a comment.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here's a paragraph that will be visible.
+
+[This is a comment that will be hidden.]: # 
+
+And here's another paragraph that's visible.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p>Here’s a paragraph that will be visible.</p>
+
+<p>And here’s another paragraph that’s visible.</p>
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> This tip comes from <a href="https://stackoverflow.com/questions/4823468/comments-in-markdown" rel="nofollow">Stack Overflow</a>. It's been peer-reviewed and used by thousands of people!
+</div>
+
+<h2 id="admonitions">Admonitions</h2>
+
+<p>Admonitions are frequently used in documentation to call attention to warnings, notes, and tips. Markdown doesn’t provide special syntax for admonitions, and most Markdown applications don’t provide support for admonitions (one exception is <a href="/tools/mkdocs/">MkDocs</a>).</p>
+
+<p>However, if you need to add admonitions, you might be able to use <a href="/basic-syntax/#blockquotes-1">blockquotes</a> with <a href="/extended-syntax/#emoji">emoji</a> and <a href="/basic-syntax/#emphasis">emphasis</a> to create something that looks similar to the admonitions you see on other websites.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; :warning: **Warning:** Do not push the big red button.
+
+&gt; :memo: **Note:** Sunrises are beautiful.
+
+&gt; :bulb: **Tip:** Remember to appreciate the little things in life.
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<blockquote>
+  <p>⚠️ <strong>Warning:</strong> Do not push the big red button.</p>
+</blockquote>
+
+<blockquote>
+  <p>📝 <strong>Note:</strong> Sunrises are beautiful.</p>
+</blockquote>
+
+<blockquote>
+  <p>💡 <strong>Tip:</strong> Remember to appreciate the little things in life.</p>
+</blockquote>
+
+<h2 id="image-size">Image Size</h2>
+
+<p>The Markdown syntax for <a href="/basic-syntax/#images-1">images</a> doesn’t allow you to specify the width and height of images. If you need to resize an image and your Markdown processor supports <a href="/basic-syntax/#html">HTML</a>, you can use the <code class="language-plaintext highlighter-rouge">img</code> HTML tag with the <code class="language-plaintext highlighter-rouge">width</code> and <code class="language-plaintext highlighter-rouge">height</code> attributes to set the dimensions of an image in pixels.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"image.png"</span> <span class="na">width=</span><span class="s">"200"</span> <span class="na">height=</span><span class="s">"100"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p>The rendered output will contain the image resized to the dimensions you specified.</p>
+
+<h2 id="image-captions">Image Captions</h2>
+
+<p>Markdown doesn’t natively support image captions, but there are two possible workarounds. If your Markdown application supports <a href="/basic-syntax/#html">HTML</a>, you can use the <code class="language-plaintext highlighter-rouge">figure</code> and <code class="language-plaintext highlighter-rouge">figcaption</code> HTML tags to add a caption for your image.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;figure&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/images/albuquerque.jpg"</span>
+         <span class="na">alt=</span><span class="s">"Albuquerque, New Mexico"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;figcaption&gt;</span>A single track trail outside of Albuquerque, New Mexico.<span class="nt">&lt;/figcaption&gt;</span>
+<span class="nt">&lt;/figure&gt;</span>
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<figure>
+    
+<img src="/assets/images/albuquerque.jpg" class="img-fluid" alt="Albuquerque, New Mexico" loading="lazy" sizes="100vw" />
+
+    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
+</figure>
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If your Markdown application supports CSS, you can use CSS to style the appearance of the caption.
+</div>
+
+<p>If your Markdown application doesn’t support HTML, you could try placing the caption directly below the image and using <a href="/basic-syntax/#emphasis">emphasis</a>.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Albuquerque, New Mexico](/assets/images/albuquerque.jpg)
+*A single track trail outside of Albuquerque, New Mexico.*
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p><img src="/assets/images/albuquerque.jpg" class="img-fluid" alt="Albuquerque, New Mexico" loading="lazy" sizes="100vw" /></p>
+
+<p><em>A single track trail outside of Albuquerque, New Mexico.</em></p>
+
+<h2 id="link-targets">Link Targets</h2>
+
+<p>Some people like creating links that open in new tabs or windows. The Markdown syntax for <a href="/basic-syntax/#links">links</a> doesn’t allow you to specify the <code class="language-plaintext highlighter-rouge">target</code> attribute, but if your Markdown processor supports <a href="/basic-syntax/#html">HTML</a>, you can use HTML to create these  links.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.markdownguide.org"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>Learn Markdown!<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<p><a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a></p>
+
+<h2 id="symbols">Symbols</h2>
+
+<p>Markdown doesn’t provide special syntax for symbols. However, in most cases, you can copy and paste whatever symbol you want to use into your Markdown document. For example, if you need to display Pi (π), just find the symbol on a webpage and copy and paste it into your document. The symbol should appear as expected in the rendered output.</p>
+
+<p>Alternatively, if your Markdown application supports <a href="/basic-syntax/#html">HTML</a>, you can use the HTML entity for whatever symbol you want to use. For example, if you want to display the copyright sign (©), you can copy and paste the HTML entity for copyright (<code class="language-plaintext highlighter-rouge">&amp;copy;</code>) into your Markdown document.</p>
+
+<p>Here’s a partial list of HTML entities for symbols:</p>
+
+<ul>
+  <li>Copyright (©) — <code class="language-plaintext highlighter-rouge">&amp;copy;</code></li>
+  <li>Registered trademark (®) — <code class="language-plaintext highlighter-rouge">&amp;reg;</code></li>
+  <li>Trademark (™) — <code class="language-plaintext highlighter-rouge">&amp;trade;</code></li>
+  <li>Euro (€) — <code class="language-plaintext highlighter-rouge">&amp;euro;</code></li>
+  <li>Left arrow (←) — <code class="language-plaintext highlighter-rouge">&amp;larr;</code></li>
+  <li>Up arrow (↑) — <code class="language-plaintext highlighter-rouge">&amp;uarr;</code></li>
+  <li>Right arrow (→) — <code class="language-plaintext highlighter-rouge">&amp;rarr;</code></li>
+  <li>Down arrow (↓) — <code class="language-plaintext highlighter-rouge">&amp;darr;</code></li>
+  <li>Degree (°) — <code class="language-plaintext highlighter-rouge">&amp;#176;</code></li>
+  <li>Pi (π) — <code class="language-plaintext highlighter-rouge">&amp;#960;</code></li>
+</ul>
+
+<p>For a complete list of available HTML entities, refer to Wikipedia’s page on <a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references">HTML entities</a>.</p>
+
+<h2 id="table-formatting">Table Formatting</h2>
+
+<p>Markdown <a href="/extended-syntax/#tables">tables</a> are notoriously finicky. You can’t use many Markdown syntax elements to format the text in table cells. But there are workarounds for at least two common table issues: Line breaks and lists.</p>
+
+<h3 id="line-breaks-within-table-cells">Line Breaks Within Table Cells</h3>
+
+<p>You can separate paragraphs within a table cell by using one or more <code class="language-plaintext highlighter-rouge">&lt;br&gt;</code> HTML tags.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title |
+| Paragraph   | First paragraph. &lt;br&gt;&lt;br&gt; Second paragraph. |
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+    </tr>
+    <tr>
+      <td>Paragraph</td>
+      <td>First paragraph. <br /><br /> Second paragraph.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="lists-within-table-cells">Lists Within Table Cells</h3>
+
+<p>You can add a list within a table cell by using HTML tags.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title |
+| List        | Here's a list! &lt;ul&gt;&lt;li&gt;Item one.&lt;/li&gt;&lt;li&gt;Item two.&lt;/li&gt;&lt;/ul&gt; |
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+    </tr>
+    <tr>
+      <td>List</td>
+      <td>Here's a list! <ul><li>Item one.</li><li>Item two.</li></ul></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<p>Some Markdown applications like <a href="/tools/markdeep/">Markdeep</a> can automatically generate a table of contents (also referred to as a <em>toc</em>) from your <a href="/basic-syntax/#headings">headings</a>, but this isn’t a feature provided by all Markdown applications. However, if your Markdown application supports <a href="/extended-syntax/#heading-ids">heading IDs</a>, you can create a table of contents for your Markdown file using a <a href="/basic-syntax/#lists-1">list</a> and some <a href="/basic-syntax/#links">links</a>.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#### Table of Contents
+
+- [Underline](#underline)
+- [Indent](#indent)
+- [Center](#center)
+- [Color](#color)
+</code></pre></div></div>
+
+<p>The rendered output looks like this:</p>
+
+<h4 class="no-anchor" data-toc-skip="">Table of Contents</h4>
+
+<ul>
+  <li><a href="#underline">Underline</a></li>
+  <li><a href="#indent">Indent</a></li>
+  <li><a href="#center">Center</a></li>
+  <li><a href="#color">Color</a></li>
+</ul>
+
+<h2 id="videos">Videos</h2>
+
+<p>If your Markdown application supports <a href="/basic-syntax/#html">HTML</a>, you should be able to embed a video in your Markdown file by copying and pasting the HTML code provided by a video website like YouTube or Vimeo. If your Markdown application doesn’t support HTML, you can’t embed a video, but you can come close by adding an <a href="/basic-syntax/#images-1">image</a> and a link to the video. You could do this with practically any video on any video service.</p>
+
+<p>Since YouTube makes this easy, we’ll use them as an example. Take this video, for instance: <code class="language-plaintext highlighter-rouge">https://www.youtube.com/watch?v=8q2IjQOzVpE</code>. The last part of the URL (<code class="language-plaintext highlighter-rouge">8q2IjQOzVpE</code>) is the ID of the video. We can take that ID and put it in the following template:</p>
+
+<pre><code class="language-test">[![Image alt text](https://img.youtube.com/vi/YOUTUBE-ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE-ID)
+</code></pre>
+
+<p>YouTube automatically generates an image for every video (<code class="language-plaintext highlighter-rouge">https://img.youtube.com/vi/YOUTUBE-ID/0.jpg</code>), so we can use that and <a href="/basic-syntax/#linking-images">link the image</a> to the video on YouTube. After we replace the image alt text and add the ID of the video, our example looks like this:</p>
+
+<pre><code class="language-test">[![Less Than Jake — Scott Farcas Takes It On The Chin](https://img.youtube.com/vi/PYCxct2e0zI/0.jpg)](https://www.youtube.com/watch?v=PYCxct2e0zI)
+</code></pre>
+
+<p>The rendered output looks like this:</p>
+
+<p><a href="https://www.youtube.com/watch?v=PYCxct2e0zI" rel="nofollow"><img src="https://img.youtube.com/vi/PYCxct2e0zI/0.jpg" width="480" height="360" alt="Less Than Jake — Scott Farcas Takes It On The Chin" /></a></p>
+
+          <!-- <div class="card bg-light mb-3" style="max-width: 100%; margin-top: 50px;">
+  <div class="row no-gutters">
+    <div class="col-md-3">
+      <a href="/book/">
+        
+<img src="/assets/images/book-cover.jpg" class="img-fluid"   alt="Markdown Guide book cover" loading="lazy" sizes="100vw">
+
+      </a>
+    </div>
+    <div class="col-md-9">
+      <div class="card-body" style="padding-left: 6%;">
+        <h5 class="card-title no-anchor" data-toc-skip>Take your Markdown skills to the next level.</h5>
+        <p class="card-text">Learn Markdown in 60 pages. Designed for both novices and experts, <em>The Markdown Guide</em> book is a comprehensive reference that has everything you need to get started and master Markdown syntax.</p>
+        <a class="btn btn-success" style="margin-top: 5px; margin-right: 15px" href="/book/">Get the Book</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card border-info" style="margin-top: 50px">
+  <h6 class="card-header no-anchor bg-info text-white" data-toc-skip>Want to learn more Markdown?</h6>
+  <div class="card-body">
+    <p class="card-text">
+      Don't stop now! 🚀 Star the <a href="https://github.com/mattcone/markdown-guide">GitHub repository</a> and then enter your email address below to receive new Markdown tutorials via email. No spam!</p>
+
+      <form method="post" action="https://pika.forklabs.com/subscription/form" class="listmonk-form">
+      <div class="form-group" style="margin-top: 20px">
+        <input type="hidden" name="nonce" />
+        <input id="b7668" type="hidden" name="l" value="b766881d-27fd-43a8-9b76-1b74f2a76763" />
+        <input type="email" class="form-control form-control-lg" name="email" placeholder="Your email address" />
+      </div>
+      <button type="submit" class="btn btn-success">Stay updated</button>
+    </form>
+
+  </div>
+</div> -->
+        </div>
+        <div class="col-md-3 d-none d-md-block" id="sidebar">
+          <nav id="toc" data-toggle="toc" class="sticky-top" style="z-index:1"></nav>
+          
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+  <div class="container">
+    <!-- <p style="font-size: 14px; font-weight: 600"><a href="/about/">About</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="/contact/">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/mattcone/markdown-guide">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="/api/v1/">API</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="/privacy-policy/">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="/terms-and-conditions/">Terms and Conditions</a></p> -->
+    <!-- <p style="margin-top: 15px; font-size: 14px;">&#169; 2025. A <a href="https://www.mattcone.com">Акын Автоматики</a> project. <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Made with 🌶️ in <a href="https://www.newmexico.org/">New Mexico</a>.</p> -->
+    <p style="margin-top: 15px; font-size: 14px;">&#169; 2025. Автор проекта <a href="#">Акын Автоматики</a>. Сделано с ♥️ и 🧠.</p>
+  </div>
+</footer>
+<script type="text/javascript" src="/assets/javascript/anchor.min.js"></script>
+<script>
+  anchors.options = {
+  placement: 'right',
+  };
+  anchors.add('h1, h2, h3, h4, h5').remove('.no-anchor');
+</script>
+
+<!-- for search -->
+<script src="/assets/javascript/docsearch.min.js"></script>
+<script>
+docsearch({
+container: '#docsearch',
+appId: 'G2ZRR9A979',
+apiKey: 'f522befe6142f2279344e025a79539a7',
+indexName: 'markdownguide',
+inputSelector: '#search-input',
+debug: false // Set debug to true if you want to inspect the dropdown
+});
+</script>
+
+  </body>
+</html>
