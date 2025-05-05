@@ -10,6 +10,17 @@ Contributions are welcome. Feel free to open a pull request with changes.
 
 It can be helpful to preview changes on your computer before opening a pull request. *The Markdown Guide* uses the [Jekyll static site generator](http://jekyllrb.com/). After forking or cloning the repository, perform the following steps to generate the site and preview it:
 
+```sh
+brew update
+brew install ruby
+brew link --overwrite ruby     
+export PATH="/usr/local/opt/ruby/bin:$PATH"  
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH" 
+source ~/.zshrc              
+ruby -v      
+# ruby 3.4.3 (2025-04-14 revision d0b7e5b6a0) +PRISM [arm64-darwin24]
+```
+
 - Make sure you have ruby installed on your computer. See https://www.ruby-lang.org/en/downloads/
 - `bundle install`
 - `bundle exec jekyll serve`
