@@ -5,6 +5,8 @@ description: Вводный семинар по ИИ для создания и 
 last_modified_at: 2025-07-15
 ---
 
+{% include image.html file="/assets/images/courses/ai-intro-img.png" alt="Вводный семинар по ИИ для создания и обработки изображений." %}
+
 ## Описание
 
 Практический онлайн-семинар по искусственному интеллекту фокусируется на применении инструментов для создания и обработки изображений. Семинар охватывает работу с различными типами генеративных нейросетей — от текстовых моделей (ChatGPT) до моделей для создания изображений (Stable Diffusion, DALL-E). Особое внимание уделяется практическим навыкам: составлению эффективных промптов/вводных, обработке и редактированию изображений, многошаговым диалогам с ИИ для получения нужного результата.
@@ -38,14 +40,10 @@ last_modified_at: 2025-07-15
 
 Если вы заинтересовались, добавляйтесь в Телеграмм-группу по ссылке <a href="https://t.me/+QcY7KOwd7rozODUx" target="_blank">https://t.me/+QcY7KOwd7rozODUx</a>, где решаются вопросы по согласованию времени онлайн-семинара, организации обучения и публикуется другая информация.
 
-<!-- ## Опрос
+## Учебный группы
 
-По возможности, заполните форму из 5 вопросов. Это поспособствует лучшей осведомлённости об уровне знакомства слушателей с ИИ и адаптации содержания семинара.
-
-<!-- <script src="https://forms.yandex.ru/_static/embed.js" integrity="hpjJ5QgZXBU0cb5BR+56dyKxdHoIAfgq253BaKiRWgWW+phPa1rAeqiIGMVZkDgw" crossorigin="anonymous"></script><iframe src="https://forms.yandex.ru/cloud/67a7c6bbf47e73137dfdc031/?iframe=1" frameborder="0" name="ya-form-67a7c6bbf47e73137dfdc031" width="500" height="1500"></iframe> -->
-
-<!-- <script src="https://forms.yandex.ru/_static/embed.js" integrity="hpjJ5QgZXBU0cb5BR+56dyKxdHoIAfgq253BaKiRWgWW+phPa1rAeqiIGMVZkDgw" crossorigin="anonymous"></script><iframe src="https://forms.yandex.ru/cloud/6874191fe010dbf2f298adf5?iframe=1&came_from_source=akyn-ai_github_io" frameborder="0" name="ya-form-6874191fe010dbf2f298adf5" width="500" height="2000"></iframe> --> -->
-
+- Тестовая группа №1. Апробация учебного плана.
+- Учебная группа №1. Ссылка 
 
 [<к продуктам](/products/)
 
