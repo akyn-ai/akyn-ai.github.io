@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Мобильные и облачные сервисы
-description: The Markdown elements outlined in the original design document.
+description: Дизайн, разработка, развёртывание и консультации
 last_modified_at: 2023-04-22
 ---
 
