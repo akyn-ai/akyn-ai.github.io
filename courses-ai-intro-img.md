@@ -34,17 +34,17 @@ last_modified_at: 2025-07-15
 - Элементы пост-обработки: Lunacy.
 - Сумма Стратегии.
 
-## Telegramm-группа
+## Telegram-группа
 
 Если вы заинтересовались, добавляйтесь в Телеграмм-группу по ссылке <a href="https://t.me/+QcY7KOwd7rozODUx" target="_blank">https://t.me/+QcY7KOwd7rozODUx</a>, где решаются вопросы по согласованию времени онлайн-семинара, организации обучения и публикуется другая информация.
 
-## Опрос
+<!-- ## Опрос
 
 По возможности, заполните форму из 5 вопросов. Это поспособствует лучшей осведомлённости об уровне знакомства слушателей с ИИ и адаптации содержания семинара.
 
 <!-- <script src="https://forms.yandex.ru/_static/embed.js" integrity="hpjJ5QgZXBU0cb5BR+56dyKxdHoIAfgq253BaKiRWgWW+phPa1rAeqiIGMVZkDgw" crossorigin="anonymous"></script><iframe src="https://forms.yandex.ru/cloud/67a7c6bbf47e73137dfdc031/?iframe=1" frameborder="0" name="ya-form-67a7c6bbf47e73137dfdc031" width="500" height="1500"></iframe> -->
 
-<script src="https://forms.yandex.ru/_static/embed.js" integrity="hpjJ5QgZXBU0cb5BR+56dyKxdHoIAfgq253BaKiRWgWW+phPa1rAeqiIGMVZkDgw" crossorigin="anonymous"></script><iframe src="https://forms.yandex.ru/cloud/6874191fe010dbf2f298adf5?iframe=1&came_from_source=akyn-ai_github_io" frameborder="0" name="ya-form-6874191fe010dbf2f298adf5" width="500" height="2000"></iframe>
+<script src="https://forms.yandex.ru/_static/embed.js" integrity="hpjJ5QgZXBU0cb5BR+56dyKxdHoIAfgq253BaKiRWgWW+phPa1rAeqiIGMVZkDgw" crossorigin="anonymous"></script><iframe src="https://forms.yandex.ru/cloud/6874191fe010dbf2f298adf5?iframe=1&came_from_source=akyn-ai_github_io" frameborder="0" name="ya-form-6874191fe010dbf2f298adf5" width="500" height="2000"></iframe> -->
 
 
 [<к продуктам](/products/)
