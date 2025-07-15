@@ -5,7 +5,7 @@ description: Вводный семинар по ИИ для создания и 
 last_modified_at: 2025-07-15
 ---
 
-{% include image.html file="/assets/images/courses/ai-intro-img.png" alt="Вводный семинар по ИИ для создания и обработки изображений." %}
+{% include image.html file="/assets/images/courses/ai-intro-img-sz-md.png" alt="Вводный семинар по ИИ для создания и обработки изображений." %}
 
 ## Описание
 
