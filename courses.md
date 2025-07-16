@@ -5,7 +5,7 @@ description: Рука усердная будет владычествовать
 last_modified_at: 2025-07-15
 ---
 
-## Семинар ИИ и изо-бражения
+## Семинар ИИ и изо-брожения
 
 {% include image.html file="/assets/images/courses/ai-intro-img-sz-sm.png" alt="Вводный семинар по ИИ для создания и обработки изображений." %}
 
