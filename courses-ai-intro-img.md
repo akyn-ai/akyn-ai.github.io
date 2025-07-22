@@ -82,7 +82,7 @@ last_modified_at: 2025-07-15
 </script>
 <!-- платёжная форма -->
 <div class="toggle-container">
-    <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты (нажмите чтобы открыть)</div>
+    <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты для учебной группы №1 (нажмите чтобы открыть)</div>
     <div class="toggle-content">
         <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.25.0">
         <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8">
@@ -122,7 +122,7 @@ last_modified_at: 2025-07-15
 
 <!-- платёжная форма -->
 <div class="toggle-container">
-    <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты (нажмите чтобы открыть)</div>
+    <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты для учебной группы №1 (нажмите чтобы открыть)</div>
     <div class="toggle-content">
         <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.25.0">
         <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8">
@@ -161,7 +161,7 @@ last_modified_at: 2025-07-15
 - При покупке Базового пакета, видео-запись можно приобрести отдельно после проведения семинара за 1500 рублей.
 
 <div class="toggle-container">
-    <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты (нажмите чтобы открыть)</div>
+    <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты для учебной группы №1 (нажмите чтобы открыть)</div>
     <div class="toggle-content">
         <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.25.0">
         <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8">
