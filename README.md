@@ -26,6 +26,7 @@ ruby -v
 - `bundle exec jekyll build` -- to build new version
 - `bundle exec jekyll serve`
 - Point your browser at http://127.0.0.1:4000/
+- login into gh `gh auth login`
 
 ### Adding tools
 
