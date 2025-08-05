@@ -44,7 +44,7 @@ last_modified_at: 2025-07-15
 
 ## Расписание
 
-- Онлайн-семинар "ИИ и изо-брожения". Встреча пройдет 2 августа 2025 г. в 19:00 МСК.
+- Онлайн-семинар "ИИ и изо-брожения". Встреча прошла 2 августа 2025 г. в 19:00 МСК.
 
 
 ## Тарифы
@@ -82,7 +82,7 @@ last_modified_at: 2025-07-15
 </script>
 
 <!-- платёжная форма -->
-<div class="toggle-container">
+<!-- <div class="toggle-container">
     <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты для учебной группы №1 (нажмите чтобы открыть)</div>
     <div class="toggle-content">
         <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.25.0">
@@ -113,38 +113,8 @@ last_modified_at: 2025-07-15
             </div>
             <input name="shopId" type="hidden" value="1125110">
         </form>
-        <!--
-        <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.25.0">
-        <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8">
-            <div class="ym-products">
-            <div class="ym-block-title ym-products-title">Семинар</div>
-            <div class="ym-product">
-                    <div class="ym-product-line">
-                        <span class="ym-product-description"><span class="ym-product-count">1×</span>ТЕСТ ИИ и изо-брожения, группа №1, базовый пакет: онлайн-семинар и шпаргалка</span>
-                        <span class="ym-product-price" data-price="3000" data-id="669" data-count="1">3&nbsp;000,00&nbsp;₽</span>
-                    </div>
-                <input disabled="" type="hidden" name="text" value="ТЕСТ ИИ и изо-брожения, группа №1, базовый пакет: онлайн-семинар и шпаргалка"><input disabled="" type="hidden" name="price" value="3000"><input disabled="" type="hidden" name="quantity" value="1"><input disabled="" type="hidden" name="paymentSubjectType" value="service"><input disabled="" type="hidden" name="paymentMethodType" value="full_prepayment"><input disabled="" type="hidden" name="tax" value="1"></div></div>
-            <input value="" type="hidden" name="ym_merchant_receipt">
-            <div class="ym-customer-info">
-                <div class="ym-block-title">О покупателе</div>
-                <div>Введите email для отправки чека и получения ссылки на трансляцию</div>
-                <input name="cps_email" class="ym-input" placeholder="Email" type="email" value="" required>
-                <div>Совершая оплату вы соглашаетесь с условиями <a href="../user-agreement-courses/" target="_blank">оферты</a></div>
-            </div>
-            <div class="ym-hidden-inputs">
-            </div>
-            <input name="customerNumber" type="hidden" value="ТЕСТ ИИ и изо-брожения, группа №1, базовый пакет: онлайн-семинар и шпаргалка">
-            <div class="ym-payment-btn-block ym-before-line ym-align-space-between">
-                <div class="ym-input-icon-rub ym-display-none">
-                    <input name="sum" placeholder="0.00" class="ym-input ym-sum-input ym-required-input" type="number" step="any" value="3000">
-                </div>
-                <button data-text="Оплатить" class="ym-btn-pay ym-result-price"><span class="ym-text-crop">Оплатить</span> <span class="ym-price-output">3&nbsp;000,00&nbsp;₽</span></button><img src="https://yookassa.ru/integration/simplepay/img/iokassa-gray.svg?v=1.25.0" class="ym-logo" width="114" height="27" alt="ЮKassa">
-            </div>
-            <input name="shopId" type="hidden" value="1126219">
-        </form>
-        -->
     </div>
-</div>
+</div> -->
 
 ### Расширенный пакет – 4000 рублей
 
@@ -152,7 +122,7 @@ last_modified_at: 2025-07-15
 - Ссылка на видео-запись, доступная для скачивания в течении двух недель после окончания семинара.
 
 <!-- платёжная форма -->
-<div class="toggle-container">
+<!-- <div class="toggle-container">
     <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты для учебной группы №1 (нажмите чтобы открыть)</div>
     <div class="toggle-content">
         <br><link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.25.0">
@@ -183,45 +153,15 @@ last_modified_at: 2025-07-15
             </div>
             <input name="shopId" type="hidden" value="1125110">
         </form>
-        <!--
-        <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.25.0">
-        <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8">
-            <div class="ym-products">
-            <div class="ym-block-title ym-products-title">Семинар</div>
-            <div class="ym-product">
-                    <div class="ym-product-line">
-                        <span class="ym-product-description"><span class="ym-product-count">1×</span>ТЕСТ ИИ и изо-брожения, группа №1, расширенный пакет: онлайн-семинар, шпаргалка и видеозапись семинара</span>
-                        <span class="ym-product-price" data-price="4000" data-id="617" data-count="1">4&nbsp;000,00&nbsp;₽</span>
-                    </div>       
-                <input disabled="" type="hidden" name="text" value="ТЕСТ ИИ и изо-брожения, группа №1, расширенный пакет: онлайн-семинар, шпаргалка и видеозапись семинара"><input disabled="" type="hidden" name="price" value="4000"><input disabled="" type="hidden" name="quantity" value="1"><input disabled="" type="hidden" name="paymentSubjectType" value="service"><input disabled="" type="hidden" name="paymentMethodType" value="full_prepayment"><input disabled="" type="hidden" name="tax" value="1"></div></div>
-            <input value="" type="hidden" name="ym_merchant_receipt">
-            <div class="ym-customer-info">
-                <div class="ym-block-title">О покупателе</div>
-                <div>Введите email для отправки чека и получения ссылки на трансляцию</div>
-                <input name="cps_email" class="ym-input" placeholder="Email" type="email" value="" required>
-                <div>Совершая оплату вы соглашаетесь с условиями <a href="../user-agreement-courses/" target="_blank">оферты</a></div>
-            </div>
-            <div class="ym-hidden-inputs">  
-            </div>
-            <input name="customerNumber" type="hidden" value="ТЕСТ ИИ и изо-брожения, группа №1, расширенный пакет: онлайн-семинар, шпаргалка и видеозапись семинара">
-            <div class="ym-payment-btn-block ym-before-line ym-align-space-between">
-                <div class="ym-input-icon-rub ym-display-none">
-                    <input name="sum" placeholder="0.00" class="ym-input ym-sum-input ym-required-input" type="number" step="any" value="4000">
-                </div>
-                <button data-text="Оплатить" class="ym-btn-pay ym-result-price"><span class="ym-text-crop">Оплатить</span> <span class="ym-price-output">4&nbsp;000,00&nbsp;₽</span></button><img src="https://yookassa.ru/integration/simplepay/img/iokassa-gray.svg?v=1.25.0" class="ym-logo" width="114" height="27" alt="ЮKassa">
-            </div>
-            <input name="shopId" type="hidden" value="1126219">
-        </form>
-        -->
     </div>
-</div>
+</div> -->
 
 
 ### Дополнение – 1500 рублей
 
 - При покупке Базового пакета, видео-запись можно приобрести отдельно после проведения семинара.
 
-<div class="toggle-container">
+<!-- <div class="toggle-container">
     <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты для учебной группы №1 (нажмите чтобы открыть)</div>
     <div class="toggle-content">
         <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.25.0">
@@ -252,39 +192,9 @@ last_modified_at: 2025-07-15
             </div>
             <input name="shopId" type="hidden" value="1125110">
         </form>
-        <!--
-        <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.25.0">
-        <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8">
-            <div class="ym-products">
-            <div class="ym-block-title ym-products-title">Товары</div>
-            <div class="ym-product">
-                    <div class="ym-product-line">
-                        <span class="ym-product-description"><span class="ym-product-count">1×</span>ТЕСТ ИИ и изо-брожения, группа №1, дополнение: видеозапись онлайн-семинара</span>
-                        <span class="ym-product-price" data-price="1500" data-id="551" data-count="1">1&nbsp;500,00&nbsp;₽</span>
-                    </div>
-                <input disabled="" type="hidden" name="text" value="ТЕСТ ИИ и изо-брожения, группа №1, дополнение: видеозапись онлайн-семинара"><input disabled="" type="hidden" name="price" value="1500"><input disabled="" type="hidden" name="quantity" value="1"><input disabled="" type="hidden" name="paymentSubjectType" value="service"><input disabled="" type="hidden" name="paymentMethodType" value="full_prepayment"><input disabled="" type="hidden" name="tax" value="1"></div></div>
-            <input value="" type="hidden" name="ym_merchant_receipt">
-            <div class="ym-customer-info">
-                <div class="ym-block-title">О покупателе</div>
-                <div>Введите email для отправки чека и получения ссылки на трансляцию</div>
-                <input name="cps_email" class="ym-input" placeholder="Email" type="email" value="" required>
-                <div>Совершая оплату вы соглашаетесь с условиями <a href="../user-agreement-courses/" target="_blank">оферты</a></div>
-            </div>
-            <div class="ym-hidden-inputs">
-            </div>
-            <input name="customerNumber" type="hidden" value="ТЕСТ ИИ и изо-брожения, группа №1, дополнение: видеозапись онлайн-семинара">
-            <div class="ym-payment-btn-block ym-before-line ym-align-space-between">
-                <div class="ym-input-icon-rub ym-display-none">
-                    <input name="sum" placeholder="0.00" class="ym-input ym-sum-input ym-required-input" type="number" step="any" value="1500">
-                </div>
-                <button data-text="Оплатить" class="ym-btn-pay ym-result-price"><span class="ym-text-crop">Оплатить</span> <span class="ym-price-output">1&nbsp;500,00&nbsp;₽</span></button><img src="https://yookassa.ru/integration/simplepay/img/iokassa-gray.svg?v=1.25.0" class="ym-logo" width="114" height="27" alt="ЮKassa">
-            </div>
-            <input name="shopId" type="hidden" value="1126219">
-        </form>
-        -->
         <script src="https://yookassa.ru/integration/simplepay/js/yookassa_construct_form.js?v=1.25.0"></script>
     </div>
-</div>
+</div> -->
 
 ## Оферта
 
