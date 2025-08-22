@@ -371,11 +371,11 @@ last_modified_at: 2025-07-15
 - При покупке Базового пакета, видео-запись можно будет приобрести отдельно, после проведения семинара.
 
 <!-- платёжная форма -->
-<div class="toggle-container">
+<!-- Группа 1,2 студенческий -->
+<!-- <div class="toggle-container">
     <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты для учебной группы №2 (нажмите чтобы открыть)</div>
     <div class="toggle-content">
-        <!-- Группа 1,2 студенческий -->
-        <!-- <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.26.0">
+        <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.26.0">
         <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8" >
             <div class="ym-products">
             <div class="ym-block-title ym-products-title">Товары</div>
@@ -402,9 +402,9 @@ last_modified_at: 2025-07-15
                 <button data-text="Оплатить" class="ym-btn-pay ym-result-price"><span class="ym-text-crop">Оплатить</span> <span class="ym-price-output">1&nbsp;500,00&nbsp;₽</span></button><img src="https://yookassa.ru/integration/simplepay/img/iokassa-gray.svg?v=1.25.0" class="ym-logo" width="114" height="27" alt="ЮKassa">
             </div>
             <input name="shopId" type="hidden" value="1125110">
-        </form> -->
+        </form>
     </div>
-</div>
+</div> -->
 
 
 <!-- Группа 1 школьная -->
