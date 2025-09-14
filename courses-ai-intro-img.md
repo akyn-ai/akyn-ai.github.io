@@ -50,7 +50,8 @@ last_modified_at: 2025-07-15
 
 ## Тарифы
 
-### Базовый пакет – 2500 рублей, после 13 сентября – 3000 рублей
+<!-- ### Базовый пакет – 2500 рублей, после 13 сентября – 3000 рублей -->
+### Базовый пакет – 3000 рублей
 
 - Участие в онлайн семинаре длительностью 1,5 часа.
 - Возможность задавать вопросы во время семинара.
@@ -115,7 +116,7 @@ last_modified_at: 2025-07-15
             <input name="shopId" type="hidden" value="1125110">
         </form> -->
         <!-- Группа 2, ранняя -->
-        <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.26.0">
+        <!-- <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.26.0">
         <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8" >
             <div class="ym-products">
             <div class="ym-block-title ym-products-title">Товары</div>
@@ -151,9 +152,9 @@ last_modified_at: 2025-07-15
                 <img src="https://yookassa.ru/integration/simplepay/img/iokassa-gray.svg?v=1.26.0" class="ym-logo" width="114" height="27" alt="ЮKassa">
             </div>
             <input name="shopId" type="hidden" value="1125110">
-        </form>        
+        </form>  -->
         <!-- Группа 2 -->
-        <!-- <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.26.0">
+        <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.26.0">
         <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8" >
             <div class="ym-products">
             <div class="ym-block-title ym-products-title">Товары</div>
@@ -189,12 +190,14 @@ last_modified_at: 2025-07-15
                 <img src="https://yookassa.ru/integration/simplepay/img/iokassa-gray.svg?v=1.26.0" class="ym-logo" width="114" height="27" alt="ЮKassa">
             </div>
             <input name="shopId" type="hidden" value="1125110">
-        </form> -->
+        </form>
 
     </div>
 </div>
 
-### Расширенный пакет – 3500 рублей, после 13 сентября – 4000 рублей
+<!-- ### Расширенный пакет – 3500 рублей, после 13 сентября – 4000 рублей -->
+
+### Расширенный пакет – 4000 рублей
 
 - Всё, что входит в Базовый пакет.
 - Ссылка на видео-запись, доступная для скачивания в течении двух недель после окончания семинара.
@@ -232,7 +235,7 @@ last_modified_at: 2025-07-15
             </div>
             <input name="shopId" type="hidden" value="1125110">
         </form> -->
-        <!-- Группа 2, ранняя -->
+        <!-- Группа 2, ранняя
         <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.26.0">
         <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8" >
             <div class="ym-products">
@@ -269,9 +272,9 @@ last_modified_at: 2025-07-15
                 <img src="https://yookassa.ru/integration/simplepay/img/iokassa-gray.svg?v=1.26.0" class="ym-logo" width="114" height="27" alt="ЮKassa">
             </div>
             <input name="shopId" type="hidden" value="1125110">
-        </form>        
+        </form>  -->
         <!-- Группа 2 -->
-        <!-- <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.26.0">
+        <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.26.0">
         <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8" >
             <div class="ym-products">
             <div class="ym-block-title ym-products-title">Товары</div>
@@ -307,10 +310,12 @@ last_modified_at: 2025-07-15
                 <img src="https://yookassa.ru/integration/simplepay/img/iokassa-gray.svg?v=1.26.0" class="ym-logo" width="114" height="27" alt="ЮKassa">
             </div>
             <input name="shopId" type="hidden" value="1125110">
-        </form> -->
+        </form> <!-- -->
     </div>
 </div>
 
+
+<!--
 ### Студенческий пакет – 2000 рублей, только до 13 сентября
 
 - Участие в онлайн семинаре длительностью 1,5 часа.
@@ -318,12 +323,13 @@ last_modified_at: 2025-07-15
 - Подробная памятка по материалам семинара.
 
 После регистрации в статусе студента, на указанный вами адрес электронной почты придёт просьба прислать фото развёрнутого студенческого билета для подтверждения студенческого статуса. После успешного подтверждения, фото будет удалено. Без подтверждения студенческого статуса, оплата будет возвращена, а регистрация отменена.
+-->
 
-<!-- платёжная форма -->
+<!-- платёжная форма
 <div class="toggle-container">
     <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты для учебной группы №2 (нажмите чтобы открыть)</div>
     <div class="toggle-content">
-        <!-- Группа 2, студенческий -->
+        Группа 2, студенческий
         <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.26.0">
         <form target="_blank" class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8" >
             <div class="ym-products">
@@ -362,7 +368,7 @@ last_modified_at: 2025-07-15
             <input name="shopId" type="hidden" value="1125110">
         </form>
     </div>
-</div>
+</div> -->
 
 
 
@@ -372,7 +378,7 @@ last_modified_at: 2025-07-15
 
 <!-- платёжная форма -->
 <!-- Группа 1,2 студенческий -->
-<!-- <div class="toggle-container">
+<div class="toggle-container">
     <div class="toggle-header" onclick="toggleContent(this)">Форма оплаты для учебной группы №2 (нажмите чтобы открыть)</div>
     <div class="toggle-content">
         <link rel="stylesheet" href="https://yookassa.ru/integration/simplepay/css/yookassa_construct_form.css?v=1.26.0">
@@ -404,7 +410,7 @@ last_modified_at: 2025-07-15
             <input name="shopId" type="hidden" value="1125110">
         </form>
     </div>
-</div> -->
+</div>
 
 
 <!-- Группа 1 школьная -->
